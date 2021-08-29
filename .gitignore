@@ -1,0 +1,28 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore pycache
+pycache/
+__pycache__/
+
+# Ignore pyinstaller builds
+build/
+dist/
+main.spec
+
+# Ignore test files in /img except for a few exemplars
+img/*
+!img/Bulbasaur.png
+!img/Ivysaur.png
+!img/Venusaur.png
+!img/Charmander.png
+!img/Charmeleon.png
+!img/Charizard.png
+!img/Squirtle.png
+!img/Wartortle.png
+!img/Blastoise.png
+!img/Pikachu.png
+
+# Ignore the result file
+results.csv
